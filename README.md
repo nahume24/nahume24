@@ -1,66 +1,62 @@
+# Hi, I'm Nahume Nzanza 👋
 
-<h1 align="center">Hi, I'm Nahume Nzanza</h1>
+### AI Engineer Intern | Aspiring Data Engineer | Data Science
 
-<h3 align="center">Data & AI Enthusiast from South Africa</h3>
+I'm an Information Technology graduate interested in building practical solutions with **Data Engineering, Artificial Intelligence and Analytics**.
 
-<p>
-I'm a self-motivated and detail-oriented  with a passion for technology, data, and problem-solving. 
-I enjoy building practical solutions that address real-world challenges and continuously improving my technical skills.
-</p>
+I enjoy turning data and business problems into useful technical solutions while continuously learning new technologies.
 
-<p>
-My interests include data engineering, data analysis, AI technologies, and creating efficient solutions through collaboration and innovation.
-I value continuous learning, adaptability, and using technology to make meaningful improvements.
-</p>
+### 🛠️ Technologies & Tools
 
-<h3 align="left">Connect with me:</h3>
+**Programming & Data**
+- Python
+- SQL
+- Pandas
+- Power BI
+- Excel
 
-<p align="left">
-<a href="https://www.linkedin.com/in/nahume-nzanza-3506ab1b7/?originalSubdomain=za" target="blank">
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nahume nzanza" height="30" width="40" />
-</a>
-</p>
+**Data Engineering**
+- ETL
+- Ab Initio
+- Data Pipelines
+- Data Warehousing
 
-<h3 align="left">Technical Skills:</h3>
+**AI & Machine Learning**
+- RAG
+- LangChain
+- LangGraph
+- Azure OpenAI
+- Weaviate
+- Embeddings
 
-<p align="left">
+**Tools**
+- Git
+- GitHub
+- Jupyter
+- VS Code
+- Kaggle
 
-<!-- Programming & Data -->
-<a href="https://www.python.org/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-</a>
+### 🚀 Featured Projects
 
-<a href="https://www.mysql.com/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="sql" width="40" height="40"/>
-</a>
+- 🤖 **BRS Generator** — AI-assisted business requirements generator
+- 📚 **RAG Document Intelligence System** — document processing and semantic retrieval
+- 📊 **Data Science Projects** — data analysis, visualization and machine learning
+- 💱 **EUR/USD Analysis** — financial data analysis and forecasting
 
-<a href="https://git-scm.com/" target="_blank">
-<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-</a>
+### 🎯 Currently Focused On
 
-<a href="https://www.linux.org/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-</a>
+- Data Engineering
+- Artificial Intelligence
+- LLM Applications
+- Data Analytics
+- Building practical projects
 
-</p>
+### 📫 Connect With Me
 
-<h3 align="left">Data & AI Tools:</h3>
+- LinkedIn: [https://www.linkedin.com/in/nahume-nzanza-3506ab1b7/]
+- GitHub: 
+- Kaggle: 
 
-<ul>
-<li>Python & SQL</li>
-<li>ETL Development with AB Initio</li>
-<li>Data Analysis & Visualization with Excel and Power BI</li>
-<li>Large Language Models (LLMs) & AI Technologies</li>
-</ul>
+---
 
-<h3 align="left">Soft Skills:</h3>
-
-<ul>
-<li>Attention to Detail</li>
-<li>Team Collaboration</li>
-<li>Communication</li>
-<li>Time Management</li>
-<li>Adaptability</li>
-</ul>
-<p>
-</p>
+> *Learning by building, one project at a time.*

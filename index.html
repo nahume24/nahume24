@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta
-    name="description"
-    content="Nahume Nzanza portfolio - AI Engineer Intern and aspiring Data Engineer."
-  />
-  <title>Nahume Nzanza | Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="description"
+        content="Nahume Nzanza — AI Engineer Intern and aspiring Data Engineer. Portfolio of data, AI and software projects.">
+
+  <meta name="author" content="Nahume Nzanza">
+  <meta name="theme-color" content="#07111f">
+
+  <title>Nahume Nzanza | AI & Data Engineering Portfolio</title>
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -17,8 +20,7 @@
   <!-- Navigation -->
   <header class="header">
     <nav class="nav container">
-
-      #home
+      <a class="logo" href="#home" aria-label="Nahume Nzanza home">
         Nahume<span>.</span>
       </a>
 
@@ -27,32 +29,27 @@
         id="menuBtn"
         aria-label="Open navigation"
         aria-expanded="false"
-      >
+        aria-controls="navLinks">
         ☰
       </button>
 
       <ul class="nav-links" id="navLinks">
-        <li>#aboutAbout</a></li>
-        <li>#skillsSkills</a></li>
-        <li>#projectsProjects</a></li>
-        <li>#experienceExperience</a></li>
-        <li>#contactContact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-
     </nav>
   </header>
 
-
   <main>
 
-    <!-- Hero Section -->
+    <!-- Hero -->
     <section class="hero container" id="home">
 
       <div class="hero-copy reveal">
-
-        <p class="eyebrow">
-          Hello, I'm
-        </p>
+        <p class="eyebrow">Hello, I'm</p>
 
         <h1>Nahume Nzanza</h1>
 
@@ -63,48 +60,29 @@
         </h2>
 
         <p class="hero-text">
-          I build practical data and AI solutions using Python,
-          SQL, ETL technologies and modern AI tools.
+          I build practical data and AI solutions using Python, SQL,
+          ETL technologies and modern AI tools. I enjoy turning data
+          and business problems into useful technical solutions.
         </p>
 
-
         <div class="hero-actions">
+          <a class="btn primary" href="#projects">View My Projects</a>
 
-          #projects
-            View My Projects
-          </a>
-
-          Nahume-Nzanza-CV.pdf
+          <!-- Add Nahume-Nzanza-CV.pdf to this folder -->
+          <a class="btn secondary" href="Nahume-Nzanza-CV.pdf" download>
             Download CV
           </a>
-
         </div>
-
 
         <div class="quick-links">
-
-          <!-- Replace these with your real profile links -->
-
-          https://www.linkedin.com/
-            LinkedIn
-          </a>
-
-          https://github.com/
-            GitHub
-          </a>
-
-          https://www.kaggle.com/
-            Kaggle
-          </a>
-
+          <!-- Replace these with your real profile URLs -->
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.kaggle.com/" target="_blank" rel="noopener noreferrer">Kaggle ↗</a>
         </div>
-
       </div>
 
-
-      <!-- Developer Code Card -->
-      <div class="hero-card reveal">
-
+      <div class="hero-card reveal" aria-label="Developer profile">
         <div class="code-dot-row">
           <span></span>
           <span></span>
@@ -112,7 +90,7 @@
         </div>
 
         <pre><code><span class="purple">const</span> nahume = {
-  location: <span class="green">"Johannesburg, SA"</span>,
+  location: <span class="green">"South Africa"</span>,
   degree: <span class="green">"BSc Information Technology"</span>,
 
   focus: [
@@ -123,251 +101,256 @@
 
   learning: <span class="purple">true</span>
 };</code></pre>
-
       </div>
 
     </section>
 
-
-
-    <!-- About Section -->
+    <!-- About -->
     <section class="section alt" id="about">
-
       <div class="container narrow reveal">
-
-        <p class="eyebrow">
-          Get to know me
-        </p>
-
-        <h2 class="section-title">
-          About Me
-        </h2>
+        <p class="eyebrow">Get to know me</p>
+        <h2 class="section-title">About Me</h2>
 
         <p>
           I hold a BSc in Information Technology and I am currently
-          gaining practical industry experience as an AI Engineer
-          Intern. My experience includes Python, SQL, Power BI,
-          Ab Initio, data pipelines and AI technologies.
+          gaining practical industry experience as an AI Engineer Intern.
+          My experience includes Python, SQL, Power BI, Ab Initio,
+          data pipelines and AI technologies.
         </p>
 
         <p>
-          I am particularly interested in growing my career in
-          Data Engineering while continuing to develop my knowledge
-          of AI, analytics and data architecture.
+          I am particularly interested in growing my career in Data
+          Engineering while continuing to develop my knowledge of AI,
+          analytics and data architecture.
         </p>
 
+        <p>
+          I enjoy learning by building. My goal is to create solutions
+          that are practical, reliable and useful in real-world environments.
+        </p>
       </div>
-
     </section>
 
-
-
-    <!-- Skills Section -->
+    <!-- Skills -->
     <section class="section container" id="skills">
-
-      <p class="eyebrow reveal">
-        What I work with
-      </p>
-
-      <h2 class="section-title reveal">
-        Skills
-      </h2>
-
+      <p class="eyebrow reveal">What I work with</p>
+      <h2 class="section-title reveal">Skills</h2>
 
       <div class="grid skills-grid">
 
-        <!-- Data Engineering -->
         <article class="card reveal">
-
           <h3>Data Engineering</h3>
-
+          <p class="card-description">
+            Working with data movement, transformation and structured
+            data workflows.
+          </p>
           <div class="tags">
-
             <span>SQL</span>
-
             <span>Ab Initio</span>
-
             <span>ETL</span>
-
             <span>Data Pipelines</span>
-
             <span>Data Warehousing</span>
-
             <span>Metadata</span>
-
           </div>
-
         </article>
 
-
-        <!-- Programming -->
         <article class="card reveal">
-
-          <h3>
-            Programming &amp; Analytics
-          </h3>
-
+          <h3>Programming &amp; Analytics</h3>
+          <p class="card-description">
+            Using Python and analytical tools to explore, process and
+            communicate insights from data.
+          </p>
           <div class="tags">
-
             <span>Python</span>
-
             <span>Pandas</span>
-
             <span>Power BI</span>
-
             <span>Excel</span>
-
             <span>Data Analysis</span>
-
           </div>
-
         </article>
 
-
-        <!-- AI -->
         <article class="card reveal">
-
-          <h3>
-            AI &amp; Machine Learning
-          </h3>
-
+          <h3>AI &amp; Machine Learning</h3>
+          <p class="card-description">
+            Exploring modern AI applications including retrieval,
+            embeddings and LLM-based solutions.
+          </p>
           <div class="tags">
-
             <span>RAG</span>
-
             <span>LangChain</span>
-
             <span>LangGraph</span>
-
             <span>Azure OpenAI</span>
-
             <span>Weaviate</span>
-
             <span>Embeddings</span>
-
           </div>
-
         </article>
 
-
-        <!-- Tools -->
         <article class="card reveal">
-
-          <h3>Tools</h3>
-
+          <h3>Developer Tools</h3>
+          <p class="card-description">
+            Tools I use for development, experimentation, version control
+            and data work.
+          </p>
           <div class="tags">
-
             <span>Git</span>
-
             <span>GitHub</span>
-
             <span>Kaggle</span>
-
             <span>Jupyter</span>
-
             <span>VS Code</span>
-
           </div>
-
         </article>
 
       </div>
-
     </section>
 
-
-
-    <!-- Projects Section -->
+    <!-- Projects -->
     <section class="section alt" id="projects">
-
       <div class="container">
-
-        <p class="eyebrow reveal">
-          What I've built
-        </p>
-
-        <h2 class="section-title reveal">
-          Featured Projects
-        </h2>
-
+        <p class="eyebrow reveal">What I've built</p>
+        <h2 class="section-title reveal">Featured Projects</h2>
 
         <div class="grid project-grid">
 
-          <!-- Project 1 -->
           <article class="project card reveal">
+            <div class="project-icon">AI</div>
 
-            <div class="project-icon">
-              AI
-            </div>
-
-            <h3>
-              RAG Document Intelligence System
-            </h3>
+            <h3>RAG Document Intelligence System</h3>
 
             <p>
               A document-processing pipeline for chunking content,
-              generating embeddings and enabling semantic
-              information retrieval.
+              generating embeddings and enabling semantic information
+              retrieval.
             </p>
 
             <div class="tags">
-
               <span>Python</span>
-
               <span>Azure OpenAI</span>
-
               <span>Weaviate</span>
-
               <span>RAG</span>
-
             </div>
 
-            https://github.com/
+            <!-- Replace # with your repository -->
+            <a class="project-link" href="#" aria-label="View RAG project">
               View project →
             </a>
-
           </article>
 
-
-
-          <!-- Project 2 -->
           <article class="project card reveal">
+            <div class="project-icon">DS</div>
 
-            <div class="project-icon">
-              DS
-            </div>
-
-            <h3>
-              Data Science Capstone
-            </h3>
+            <h3>Data Science Capstone</h3>
 
             <p>
-              An end-to-end data science project covering data
-              preparation, exploration, visualization and
-              machine-learning concepts.
+              An end-to-end data science project covering data preparation,
+              exploration, visualization and machine-learning concepts.
             </p>
 
             <div class="tags">
-
               <span>Python</span>
-
               <span>Pandas</span>
-
               <span>ML</span>
-
               <span>Visualization</span>
-
             </div>
 
-            https://github.com/
+            <!-- Replace # with your repository -->
+            <a class="project-link" href="#" aria-label="View Data Science project">
               View project →
             </a>
-
           </article>
 
-
-
-          <!-- Project 3 -->
           <article class="project card reveal">
+            <div class="project-icon">BRS</div>
 
-            <div class="
+            <h3>BRS Generator</h3>
+
+            <p>
+              A Streamlit-based assistant concept designed to help project
+              teams turn business needs into structured and testable
+              requirements.
+            </p>
+
+            <div class="tags">
+              <span>Python</span>
+              <span>Streamlit</span>
+              <span>LLM</span>
+              <span>Requirements</span>
+            </div>
+
+            <!-- Replace # with your repository -->
+            <a class="project-link" href="#" aria-label="View BRS Generator project">
+              View project →
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section container" id="experience">
+      <div class="narrow">
+        <p class="eyebrow reveal">My journey</p>
+        <h2 class="section-title reveal">Experience &amp; Education</h2>
+
+        <div class="timeline reveal">
+
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <p class="date">Current</p>
+            <h3>AI Engineer Intern</h3>
+            <p>
+              Gaining practical experience with AI technologies,
+              data workflows and the development of technical solutions.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <p class="date">Education</p>
+            <h3>BSc Information Technology</h3>
+            <p>
+              Building a foundation across software development, data,
+              databases, analytics and information technology.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container narrow reveal">
+        <p class="eyebrow">Let's connect</p>
+        <h2 class="section-title">Have a project or opportunity?</h2>
+
+        <p class="contact-text">
+          I'm interested in opportunities where I can continue developing
+          my skills in AI, Data Engineering and analytics.
+        </p>
+
+        <div class="hero-actions contact-actions">
+          <!-- Replace with your actual email -->
+          <a class="btn primary" href="mailto:your.email@example.com">
+            Email Me
+          </a>
+          <a class="btn secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+        </div>
+
+        <p class="location">South Africa</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Nahume Nzanza. Built with HTML, CSS &amp; JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
